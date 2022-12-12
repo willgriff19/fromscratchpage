@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(186, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.common {
+    /* background-color: #cccccc; */
+    border: 2px solid white;
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height:100px;
+    border-bottom: solid 1px grey;
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width:100px;
+    bottom:39px;
+    border-right: solid 1px grey;
+    position:absolute;
+}
+.mainbody {
+    overflow-y:auto;
+    top: 114px;
+    left: 114px;
+    right: 125px;
+    bottom: 39px;
+}
+.rightmenu{
+    position:fixed;
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    border-left: solid 1px grey;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    text-align: center;
+    position: fixed;
+}
+
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+    background-color: rgb(216, 216, 216);
+    text-shadow: 20px;
+}*/
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+li {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+p {
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.underline {
+    text-decoration: underline;
+}
+.justify {
+    text-align: justify;
+}
+.homebg {
+    background-image: url(../img/bg.jpg);
+    background-position: 0rem;
+}
+.highlight {
+    background-color: white;
+}
+.padding{
+    padding-left: 10px;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .paddingtop{
+    padding-top:5px;
+  }
+  .paddingright{
+    padding-right:5px;
+  }
+  .byu{
+    height:90px;
+    float:right; 
+    margin-left:20px;
+    padding-top:5px;
+    padding-right:10px;
+  }
